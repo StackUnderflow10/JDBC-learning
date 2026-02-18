@@ -16,7 +16,7 @@ public class DeleteData {
             String deleteQuery = "DELETE FROM teachers WHERE name = ?";
             PreparedStatement ps = con.prepareStatement(deleteQuery);
 
-            ps.setString(1,"souvik");
+            ps.setString(1,"kakoli");
 
             ps.executeUpdate();
             System.out.println("successfully deleted");
